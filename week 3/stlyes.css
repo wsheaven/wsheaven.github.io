@@ -1,0 +1,38 @@
+
+#bar {
+    background-color: aqua;
+}
+
+#box1 {
+background-color: blue;
+}
+
+#box2 {
+background-color: crimson;
+}
+
+#box3 {
+background-color: darkgreen;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0px;
+    overflow: hidden;
+    background-color: #333;
+    align-items: baseline;
+  }  
+  li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

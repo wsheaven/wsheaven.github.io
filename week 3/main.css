@@ -1,0 +1,54 @@
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .flex-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .flex-start {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+  }
+
+  .flex-box div {
+    min-width: 12em;
+    min-height: 12em;
+    padding: 2em;
+    margin: .75em;
+    box-shadow: 1px 1px 8px #3D3737;
+    border-radius: .2em;
+  }
+  
+  .text-is-center {
+     text-align: center;
+  }
+  
+  .box1 {
+    background-color: #55efc4;
+  }
+
+  .box2 {
+    background-color: #b4ef55;
+  }
+
+  .box3 {
+    background-color: #e004e7;
+  }
+
+  .box4 {
+    background-color: #ee173a;
+  }
+
+  .box5 {
+    background-color: #13e6f5;
+  }
+
+  .box6 {
+    background-color: #030303;
+  }
