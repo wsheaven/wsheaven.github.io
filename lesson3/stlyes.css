@@ -17,8 +17,6 @@
     background-color: #e63946;
 }
 
-
-
 #colour {
     list-style-type: none;
 }
@@ -46,3 +44,22 @@
     height: 50px;
     background-color: #457b9d;
 }
+
+#box1:hover {
+    background-color: blueviolet;
+}
+#box2:hover {
+    background-color: blueviolet;
+}
+#box3:hover {
+    background-color: blueviolet;
+}
+#box4:hover {
+    background-color: blueviolet;
+}
+
+a {
+    color: black;
+}
+
+body {font-family: 'Lato', sans-serif;}
