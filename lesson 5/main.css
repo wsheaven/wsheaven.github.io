@@ -52,6 +52,8 @@ main {
     background-color: blueviolet;
 }
 
+
+
 a {
     color: black;
 }
@@ -201,10 +203,7 @@ table, th, td {
     padding-top: 5%;
 }
 
-li a.active {
-    background-color: #4CAF50;
-    color: white;
-}
+
 
 }
 
