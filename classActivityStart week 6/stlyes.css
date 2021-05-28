@@ -1,0 +1,45 @@
+
+#stuff {
+    width: 40%;
+    height: auto;
+    margin-left: 35%;
+    margin-right: 35%;
+
+}
+
+#enter {
+    display: flex;
+    justify-content: center;
+}
+
+#submit {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#addend1 {
+    height: 25px;
+    width: auto;
+}
+
+#addend2 {
+    height: 25px;
+    width: auto;
+}
+
+#total {
+    border-style: solid;
+    width: 85%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#sum {
+    position: relative;
+    top: 30%;
+}
+

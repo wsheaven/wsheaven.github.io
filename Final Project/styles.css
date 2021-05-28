@@ -1,0 +1,73 @@
+
+
+#box1:hover {
+    background-color: blueviolet;
+}
+#box2:hover {
+    background-color: blueviolet;
+}
+#box3:hover {
+    background-color: blueviolet;
+}
+
+
+a {
+    color: black;
+}
+
+
+#box1 {
+background-color: yellow;
+}
+
+#box2 {
+background-color: yellow;
+}
+
+#box3 {
+background-color: yellow;
+}
+
+ 
+  .list li {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-left: -50px;
+    margin-right: -50px;
+    padding: 0px 0px;
+    overflow: hidden;
+    background-color: black;
+    align-items: baseline;
+    height: 50px;
+}
+
+#stuff {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: black;
+    margin-right: -50px;
+    margin-left: -50px;
+}
+
+body {
+    background-image: url("test.jpg");
+    background-repeat:  repeat;
+    color: yellow;
+    font-family: 'Squada One', cursive;
+}
+
+nav h1 {
+    text-align: center;
+    font-size: 2em;
+}
