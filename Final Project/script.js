@@ -1,6 +1,5 @@
 // Have a 3 button menu at the top. Select either random Character planet or film. Then display info from a randomly pulled one. 
 
-const url = "https://swapi.dev/api/planets/2/";
 let results = null;
 
 function getRandomInt(min, max) {
@@ -19,8 +18,6 @@ function convertToJson(response) {
 
 function displayPlanet(data) {
   results = data;
-  console.log("first: ", results);
-  console.log("Test: ", results.name);
   document.querySelector("#one").innerHTML = `Name: ${results.name} <br>`;
   document.querySelector("#two").innerHTML = `Climate: ${results.climate} <br>`;
   document.querySelector("#three").innerHTML = `Terrain: ${results.terrain} <br>`;
@@ -56,9 +53,7 @@ function displayCharacter(data) {
   document.querySelector("#six").innerHTML = `Birth Year: ${results.birth_year}`
 }
 
-// fetch(url).then(convertToJson).then(displayPlanet);
-
-// fetch("https://swapi.dev/api/films/2/").then(convertToJson).then(displayFilm);
+// use onClick with the html links to call these functions. 
 
 function randomPlanet() {
   let number = getRandomInt(1, 50)
@@ -78,5 +73,3 @@ function randomCharacter() {
   fetch(url).then(convertToJson).then(displayCharacter);
 }
 
-
-// fetch("https://swapi.dev/api/people/1/").then(convertToJson).then(displayCharacter);
