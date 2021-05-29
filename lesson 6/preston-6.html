@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Preston Weather</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="head">
+        <div id='friday'class="pancake">
+            <h1>Yay Everyone gets pancakes because it is Friday</h1>
+        </div>
+        <div id='top'>
+        <img src="../lesson3/logo.png">
+        <div><h1>Weather Wisdom</h1>
+        We have the most best weather predictions</div>
+    </div>
+    </header>
+    <nav >
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"> Menu</a>
+        <div class="topnav" id="myTopnav">
+
+        <ul class="list">
+            <li id="box1" class="active"><a href="https://wsheaven.github.io/">Home</a></li>
+            <li id="box2"><a href="preston-5.html">Preston</a></li>
+            <li id="box3"><a href="#">Soda Springs</a></li>
+            <li id="box4"><a href="#">Fish Haven</a></li> </div>
+        </ul>
+    
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="summary">
+            <picture>
+                <source media="(min-width:1100px)" srcset="large.jpg">
+                <source media="(min-width:650px)" srcset="medium.jpg">
+                <source media="(min-width:465px)" srcset="small.jpg">
+                <img src="large.jpg" alt="hero Image" style="width:auto;">
+            </picture>
+            <section class="weather-summary">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="current">Sunny</span></p>
+                <p>High: <p id="high">40 F</p></p>
+                <p>Wind Chill: <span id="wind"></span></p>
+                <p>Humidity: <span id="humid">40%</span></p>
+                <p>Wind Speed: <span id="speed">13 mph</span></p>
+            </section>
+        </div>
+        <div id="fiveday">
+            <table>
+                <tr>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+                <tr>
+                    <th>Sunny <br> <p class="sun">☀</p></th>
+                    <th>Sunny<br> <p class="sun">☀</p></th>
+                    <th>Sunny<br> <p class="sun">☀</p></th>
+                    <th>Sunny<br> <p class="sun">☀</p></th>
+                    <th>Sunny<br> <p class="sun">☀</p></th>
+                    <th>Sunny<br> <p class="sun">☀</p></th>
+                    <th>Sunny<br> <p class="sun">☀</p></th>
+                </tr>
+            </table>
+        </div>
+        <div class="article">
+            <img src="article.jpg" alt="a picture">
+            <h3>An Article</h3>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+        <div class="contact">
+            <img src="map.png" alt="map">
+            <p id="top">Weather Wisdom <br> 30 N 1st E <br> Preston, ID 83263 <br>999-999-9999 <br>weatherwisdom@gmail.com</p>
+
+            <span></span>
+
+        </div>
+    </main>
+    <footer id="foot">Weather Wisdom | Stuff | Sam Heaven |<br> <span id="spanDate"></span> </footer>
+    <script src="stuff.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+          google: {
+            families: ['Lato']
+          }
+        });
+      </script>
+</body>
+</html>
