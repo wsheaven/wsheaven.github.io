@@ -26,6 +26,7 @@ fetch(requestURL)
         card.appendChild(image);
         image.setAttribute('src', prophets[i].imageurl);
         image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname);
+        
 
         document.querySelector('div.cards').appendChild(card); }
   });
