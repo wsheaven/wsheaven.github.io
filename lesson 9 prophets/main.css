@@ -1,11 +1,20 @@
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     text-align: center;
+    border-style: solid;
+    box-shadow: 3px 3px 3px 3px
 }
 
 section {
     background-color: rgb(172, 105, 172);
     border-style: solid;
+    margin: 5px 5px;
 }
+
+header {
+    text-align: center;
+    color: blue;
+}
+
