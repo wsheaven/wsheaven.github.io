@@ -16,6 +16,9 @@ section {
 header {
     text-align: center;
     color: blue;
-    
+
 }
 
+.info1 {
+    background-color: rgb(172, 105, 172);
+}
