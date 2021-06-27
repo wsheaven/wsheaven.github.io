@@ -70,6 +70,7 @@ const loadJsonData = async () => {
         let image = document.createElement('img');
         forecastbox.appendChild(image);
         image.setAttribute('src', `https://openweathermap.org/img/wn/${icon}.png`);
+        image.setAttribute('alt', "Weather Icon");
         boxclass = ++boxclass
 
 
