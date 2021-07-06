@@ -11,14 +11,18 @@ body {
     display: none;
 }
 
-.events {
+.stormForm {
     background-color: bisque;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    display: inline-block;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
 }
+
+.stormForm input {
+    margin-top: 5px;
+}
+  
 
 @media only screen and (min-width: 950px)
 {

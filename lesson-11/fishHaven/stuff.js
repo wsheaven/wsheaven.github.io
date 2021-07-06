@@ -14,7 +14,7 @@ function myFunction() {
     pancake.className += " secret"
   }
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&exclude=daily,minutely&units=imperial&appid=0e5b05eb0ed41a7bdddd22f966ff4fd2'
+const url = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&exclude=daily,minutely&units=imperial&appid=0e5b05eb0ed41a7bdddd22f966ff4fd2'
 
 const loadweather = async () => {
   const data = await fetch(url).then((response) => response.json())
@@ -54,7 +54,7 @@ tomorrow.getFullYear();
 
 // Populate the 5 day forecast with the correct tempature and icon
 const letters = ["a", "b", "c", "d", "e"]
-const requestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&exclude=daily,minutely&units=imperial&appid=0e5b05eb0ed41a7bdddd22f966ff4fd2';
+const requestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&exclude=daily,minutely&units=imperial&appid=0e5b05eb0ed41a7bdddd22f966ff4fd2';
 var boxclass = 0
 const loadJsonData = async () => {
   const data = await fetch(requestURL).then((response) => response.json())
@@ -120,15 +120,15 @@ fetch(townstuff)
     card.appendChild(h2);
 
     let p1 = document.createElement('p');
-    p1.textContent = jsonObject["towns"][6].events[0]
+    p1.textContent = jsonObject["towns"][2].events[0]
     card.appendChild(p1);
 
     let p2 = document.createElement('p');
-    p2.textContent = jsonObject["towns"][6].events[1]
+    p2.textContent = jsonObject["towns"][2].events[1]
     card.appendChild(p2);
 
     let p3 = document.createElement('p');
-    p3.textContent = jsonObject["towns"][6].events[2]
+    p3.textContent = jsonObject["towns"][2].events[2]
     card.appendChild(p3);
     
     document.querySelector('div.events').appendChild(card);
