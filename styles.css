@@ -1,7 +1,7 @@
 .layout {
     height: 35%;
     display: grid;
-    grid-template-rows: 125px 125px 175px;
+    grid-template-rows: 150px 125px 275px;
     grid-template-columns: 45%;
     
     
