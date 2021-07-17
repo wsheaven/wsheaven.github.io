@@ -1,0 +1,33 @@
+{
+    "temples":[ {
+        "name": "Calgary Alberta",
+        "Phone-number": "587-204-982",
+        "Address": "430 Holy Way, Calgary Alberta", 
+        "Email": "calgary@temple.com",
+        "fact": "Once the Temple was completed, a public open house was held from September 29 to October 20, 2012, where over 100,000 people toured the temple."
+     } , 
+     {
+        "name": "California Redlands",
+        "Phone-number": "403-907-982",
+        "Address": "458 temple lane, Redlands California", 
+        "Email": "Redlands@temple.com",
+        "fact": "The Redlands California Temple stands on a parcel of the original Mormon landholdings purchased in October 1851 by Elders Amasa Lyman and Charles C. Rich."
+     } ,
+     {
+        "name": "Salt Lake City",
+        "Phone-number": "127-204-332",
+        "Address": "488 Blessed Road, Salt lake city Utah", 
+        "Email": "SaltLake@temple.com",
+        "fact": "With 23 sealing rooms, the Salt Lake Temple has more sealing rooms than any other temple."
+     } ,
+     {
+        "name": "Bountiful Utah",
+        "Phone-number": "507-274-125",
+        "Address": "712 sacred road, Bountiful Utah ", 
+        "Email": "bountiful@temple.com",
+        "fact": "Church president Howard W. Hunter dedicated the Bountiful Utah Temple. Two hundred thousand Latter-day Saints attended the dedicatory sessions, more than had ever previously attended a temple dedication."
+     } 
+    
+    ]
+}
+

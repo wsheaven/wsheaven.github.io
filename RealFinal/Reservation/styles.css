@@ -1,0 +1,141 @@
+body {
+    background-color: #AFD2E9;
+}
+
+
+@media only screen and (min-width: 950px)
+{.reserve {
+    display: flex;
+    background-color: white;
+    border-radius: 3px;
+    padding: 1.8em;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+select {
+    margin-bottom: 1em;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+.message>textarea {
+    flex: 1;
+    min-width: 18em;
+}
+
+.register {
+    flex: 1;
+    order: 1;
+    margin-right: 2em;
+}
+
+.register input {
+    width: 100%;
+    margin-top: 1em;
+}
+
+.register input,
+.register button {
+    padding: 1em;
+    margin-bottom: 1em;
+} } 
+
+@media only screen and (min-width: 670px) and (max-width: 949px)
+{.reserve {
+    display: flex;
+    background-color: white;
+    border-radius: 3px;
+    padding: 1.8em;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+select {
+    margin-bottom: 1em;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+}
+
+.message>textarea {
+    flex: 1;
+    min-width: 18em;
+}
+
+.register {
+    flex: 1;
+    order: 1;
+    margin-right: 2em;
+}
+
+.register input {
+    width: 100%;
+    margin-top: 1em;
+}
+
+.register input,
+.register button {
+    padding: 1em;
+    margin-bottom: 1em;
+} } 
+
+@media only screen and (max-width: 670px)
+{
+    .reserve {
+        display: flex;
+        background-color: white;
+        border-radius: 3px;
+        padding: 1.8em;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+    }
+    
+    select {
+        margin-bottom: 1em;
+    }
+    
+    .message {
+        display: flex;
+        flex-direction: column;
+        order: 2;
+    }
+    
+    .message>textarea {
+        flex: 1;
+        min-width: 18em;
+    }
+    
+    .register {
+        flex: 1;
+        order: 1;
+        margin-right: 2em;
+    }
+    
+    .register input {
+        width: 100%;
+        margin-top: 1em;
+    }
+    
+    .register input,
+    .register button {
+        padding: 1em;
+        margin-bottom: 1em;
+    }
+}
+
+
+
