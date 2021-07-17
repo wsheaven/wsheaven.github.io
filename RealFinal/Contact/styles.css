@@ -31,6 +31,7 @@ input, textarea{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    margin-top: 1em;
 }
 #info {
     grid-column: 1/3;
